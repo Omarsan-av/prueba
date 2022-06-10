@@ -1,0 +1,30 @@
+.nav 
+{
+   height: 80px;
+   display: flex;
+   align-items: center;
+   padding-left: 25px;
+}   
+
+.banner img 
+{
+   width: 100%;
+}
+
+li::before 
+{
+   content: url('../assets/img/check.png');
+}
+
+section:nth-child(2)
+{
+   background-image: url('../assets/img/background_1.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.title 
+{
+   font-size: 2.2rem;
+   margin: 0;
+}
