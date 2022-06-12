@@ -40,7 +40,7 @@ body
 {
    font-size: 2rem;
    margin: 0;
-   padding: 55px 25px 10px;
+   padding: 45px 0 10px;
    text-align: center;
 }
 
@@ -85,28 +85,41 @@ body
 
 .use-cases
 {
-   background-image: url('../assets/img/background_2.webp');
-   background-position-x: 25%;
-   background-repeat: no-repeat;
-   background-size: cover;
-
-   p 
+   &__description
    {
-      font-size: 1.5rem;
-      margin-bottom: 20px;
-      padding: 0 10px;
-      text-align: center;
-   }
+      background-image: url('../assets/img/background_2.webp');
+      background-position-x: 25%;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      p 
+      {
+         font-size: 1.5rem;
+         margin-bottom: 20px;
+         padding: 0 10px;
+         text-align: center;
+      }
+      
+      p:nth-child(2)
+      {
+         margin-top: 40px;
+      }
    
-   p:nth-child(2)
-   {
-      margin-top: 40px;
+      p:last-child 
+      {
+         margin-bottom: 0;
+         padding-bottom: 8px;
+      }
    }
 
-   p:last-child 
+   &__images 
    {
-      margin-bottom: 0;
-      padding-bottom: 8px;
+      padding: 60px 0 20px;
+
+      .item 
+      {
+         margin-bottom: 40px;
+      }
    }
 }
 
