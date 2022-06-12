@@ -41,7 +41,6 @@ body
    font-size: 2rem;
    margin: 0;
    padding: 45px 0 10px;
-   text-align: center;
 }
 
 .services
@@ -97,7 +96,6 @@ body
          font-size: 1.5rem;
          margin-bottom: 20px;
          padding: 0 10px;
-         text-align: center;
       }
       
       p:nth-child(2)
@@ -123,6 +121,35 @@ body
    }
 }
 
+.requirements 
+{
+   background-color: #019df3;
+   color: white;
+   padding: 10px 0 60px;
+
+   .container-requirements 
+   {
+      margin: 0 auto;
+      width: 70%;
+   }
+
+   &__item 
+   {
+      padding: 40px 0;
+
+      h3 
+      {
+         font-size: 1.6rem;
+         margin-top: 15px;
+      }
+
+      p 
+      {
+         font-size: 1.25rem;
+         line-height: 1.2;
+      }
+   }
+}
 
 
 
