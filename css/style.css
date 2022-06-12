@@ -1,19 +1,40 @@
+:root 
+{
+   --darkBlue: #0b2739;
+}
+
+@font-face 
+{
+   font-family: 'Telefonica';
+   font-style: normal;
+   font-weight: normal;
+   src: url('/assets/fonts/Telefonica-Regular/Telefonica_PastazaType.ttf') format('truetype');
+}
+
+body 
+{
+   color: var(--darkBlue);
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   min-height: 100vh;
+   padding: 0;
+}
+
 .nav 
 {
    height: 80px;
-   display: flex;
-   align-items: center;
-   padding-left: 25px;
+   padding-left: 40px;
 }   
+
+nav .brand-logo 
+{
+   display: flex;
+}
 
 .banner img 
 {
    width: 100%;
-}
-
-li::before 
-{
-   content: url('../assets/img/check.png');
 }
 
 section:nth-child(2)
@@ -25,6 +46,44 @@ section:nth-child(2)
 
 .title 
 {
-   font-size: 2.2rem;
+   font-size: 2rem;
    margin: 0;
+   padding: 55px 12px 10px;
+   text-align: center;
 }
+
+.description 
+{
+   color: var(--darkBlue);
+   font-size: 1.2rem;
+   margin-bottom: 0;
+   padding-bottom: 70px;
+}
+
+.benefits 
+{
+   background: #f6f6f6;
+}
+
+.list-benefits 
+{
+   margin: 20px 0 0; 
+   padding-bottom: 70px;
+}
+
+.list-benefits li 
+{
+   display: flex;
+   font-size: 1.1rem;
+   margin-bottom: 14px;
+}
+
+.list-benefits img 
+{
+   height: 20px;
+   margin-right: 10px;
+}
+
+
+
+
