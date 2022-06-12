@@ -27,21 +27,9 @@ body
    padding-left: 40px;
 }   
 
-nav .brand-logo 
-{
-   display: flex;
-}
-
 .banner img 
 {
    width: 100%;
-}
-
-section:nth-child(2)
-{
-   background-image: url('../assets/img/background_1.webp');
-   background-repeat: no-repeat;
-   background-size: cover;
 }
 
 .title 
@@ -52,37 +40,47 @@ section:nth-child(2)
    text-align: center;
 }
 
-.description 
+.services
 {
-   color: var(--darkBlue);
-   font-size: 1.2rem;
-   margin-bottom: 0;
-   padding-bottom: 70px;
+   background-image: url('../assets/img/background_1.webp');
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   &__description 
+   {
+      color: var(--darkBlue);
+      font-size: 1.2rem;
+      margin-bottom: 0;
+      padding-bottom: 70px;
+   }
 }
 
 .benefits 
 {
    background: #f6f6f6;
+
+   &__list 
+   {
+      margin: 20px 0 0; 
+      padding-bottom: 70px;
+      
+      li 
+      {
+         display: flex;
+         font-size: 1.1rem;
+         margin-bottom: 14px;
+      }
+      
+      img 
+      {
+         height: 20px;
+         margin-right: 10px;
+      }
+   }
 }
 
-.list-benefits 
-{
-   margin: 20px 0 0; 
-   padding-bottom: 70px;
-}
 
-.list-benefits li 
-{
-   display: flex;
-   font-size: 1.1rem;
-   margin-bottom: 14px;
-}
 
-.list-benefits img 
-{
-   height: 20px;
-   margin-right: 10px;
-}
 
 
 
