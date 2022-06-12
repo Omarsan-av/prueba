@@ -39,7 +39,7 @@ nav .brand-logo
 
 section:nth-child(2)
 {
-   background-image: url('../assets/img/background_1.png');
+   background-image: url('../assets/img/background_1.webp');
    background-repeat: no-repeat;
    background-size: cover;
 }
