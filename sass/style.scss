@@ -52,6 +52,11 @@ body
    margin-left: 15px;
 }
 
+.link 
+{
+   color: #708087;
+}
+
 .services
 {
    background-image: url('../assets/img/background_1.webp');
@@ -69,7 +74,7 @@ body
 
 .benefits 
 {
-   background: var(--Lightcolor);
+   background: var(--lightColor);
 
    &__list 
    {
@@ -126,6 +131,18 @@ body
       .item 
       {
          margin-bottom: 40px;
+      }
+
+      .item:first-child 
+      {
+         margin-left: -6.5%;
+         width: 55.8%;
+      }
+
+      .item:nth-child(5)
+      {
+         margin-left: -3%;
+         width: 53%;
       }
    }
 }
@@ -258,9 +275,4 @@ footer
          margin-bottom: 5px;
       }
    }
-}
-
-.link 
-{
-   color: #708087;
 }
