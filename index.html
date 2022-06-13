@@ -68,29 +68,74 @@
                   </div>
                </div>
             </div>
+         </section>
 
-            <div class="requirements center">
-               <div class="container-requirements">
-                  <h2 class="title"> Solicita tu préstamo personal ahora, necesitas:</h2>
-                  <div class="requirements__item">
-                     <img src="./assets/img/movistar.webp" alt="movistar">   
-                     <h3 class="subtitle">Ser parte de Movistar</h3>
-                     <p>Tener un línea en Plan <br> o Prepago®</p>
-                  </div>
-                  <div class="requirements__item">
-                     <img src="./assets/img/mexico.webp" alt="mexico">   
-                     <h3 class="subtitle">Ser mexicano y <br> mayor de edad</h3>
-                  </div>
-                  <div class="requirements__item">
-                     <img src="./assets/img/documents.webp" alt="documents">   
-                     <h3 class="subtitle">Tener los siguientes documentos disponibles</h3>
-                     <p>Tu INE, RFC, comprobante de domicilio, email y contar con una cuenta bancaria.</p>
-                  </div>
+         <section class="requirements center">
+            <div class="container-requirements">
+               <h2 class="title"> Solicita tu préstamo personal ahora, necesitas:</h2>
+               <div class="requirements__item">
+                  <img src="./assets/img/movistar.webp" alt="movistar">   
+                  <h3 class="subtitle">Ser parte de Movistar</h3>
+                  <p>Tener un línea en Plan <br> o Prepago®</p>
+               </div>
+               <div class="requirements__item">
+                  <img src="./assets/img/mexico.webp" alt="mexico">   
+                  <h3 class="subtitle">Ser mexicano y <br> mayor de edad</h3>
+               </div>
+               <div class="requirements__item">
+                  <img src="./assets/img/documents.webp" alt="documents">   
+                  <h3 class="subtitle">Tener los siguientes documentos disponibles</h3>
+                  <p>Tu INE, RFC, comprobante de domicilio, email y contar con una cuenta bancaria.</p>
                </div>
             </div>
+         </section>
 
+         <section class="carousel_movistar">
+            <h2 class="title center">El proceso es <br> muy sencillo.</h2>
+         </section>
+
+         <section class="faq center">
+            <div class="container-faq">
+               <h3 class="subtitle">¿Quieres saber más?</h3>
+               <h2>Para más información, consulta las preguntas frecuentes</h2>
+
+               <ul class="collapsible left-align">
+                  <li>
+                     <div class="collapsible-header faq__background">¿Lorem ipsum dolor epellendus facilis error?<i class="material-icons">expand_less</i></div>
+                     <div class="collapsible-body"><span>Lorem ipsum dolor sit consectetur adipiscing elit. Etiam nec lacus metus. Nunc in erat ut nibh volutpat condimentum quis.</span></div>                     
+                  </li>
+
+                  <li>
+                     <div class="collapsible-header faq__background">¿Doloribus nesciun uptate aliquam vitae pareaque non?<i class="material-icons">expand_less</i></div>
+                     <div class="collapsible-body"><span>Sollicitudin tincidunt mi, vitae vehicula leo pretium.Aenean malesuada convallis dui, et facilisis tellus malesuada tempus. Vivamus sed diam non justo blandit bibendum ut et ligula. Aliquam sed lorem nec odio vestibulum.</span></div>    
+                  </li>
+
+                  <li>
+                     <div class="collapsible-header faq__background">¿Quae odio numquam rem Dolorem rem voluptate ?<i class="material-icons">expand_less</i></div>
+                     <div class="collapsible-body"><span>Quisque id venenatis est. Quisque sollicitudin tincidunt mi, vitae vehicula leo pretium.</span></div>                    
+                  </li>
+
+                  <li>
+                     <div class="collapsible-header faq__background">¿Fusce justo magna, convallis sed erat ege?<i class="material-icons">expand_less</i></div>
+                     <div class="collapsible-body"><span>Quisque id venenatis est. Quisque sollicitudin tincidunt mi, vitae vehicula leo pretium.</span></div>                    
+                  </li>
+                  
+                  <li>
+                     <div class="collapsible-header faq__background">¿Maecenasfinibus sem quis, egestas est. Vestibulum.?<i class="material-icons">expand_less</i></div>
+                     <div class="collapsible-body"><span>Mauris ac auctor nisi. Vestibulum sollicitudin interdum tincidunt. Nunc nec lacus eget libero fringilla bibendum. Donec quam urna.Quisque id venenatis est. Quisque sollicitudin tincidunt mi, vitae vehicula leo pretium.</span></div>                    
+                  </li>
+               </ul>
+            </div>
          </section>
       </main>
+      <script>
+         document.addEventListener('DOMContentLoaded', function() {
+         var elemsCarousel = document.querySelectorAll('.carousel');
+         var instances = M.Carousel.init(elemsCarousel);
+         var elemsCollapsible = document.querySelectorAll('.collapsible');
+         var instances = M.Collapsible.init(elemsCollapsible);
+         });
+      </script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
    </body>
 </html>

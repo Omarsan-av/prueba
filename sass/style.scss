@@ -1,6 +1,7 @@
 :root 
 {
    --darkBlue: #0b2739;
+   --lightColor: #f6f6f6;
 }
 
 @font-face 
@@ -9,13 +10,6 @@
    font-style: normal;
    font-weight: normal;
    src: url('/assets/fonts/Telefonica-Regular/Telefonica_PastazaType.ttf') format('truetype');
-}
-
-*
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
 }
 
 body 
@@ -38,9 +32,19 @@ body
 
 .title 
 {
-   font-size: 2rem;
+   font-size: 2.1rem;
    margin: 0;
    padding: 45px 0 10px;
+}
+
+.subtitle
+{
+   font-size: 1.6rem;
+}
+
+.material-icons 
+{
+   margin-left: 15px;
 }
 
 .services
@@ -60,7 +64,7 @@ body
 
 .benefits 
 {
-   background: #f6f6f6;
+   background: var(--Lightcolor);
 
    &__list 
    {
@@ -137,22 +141,67 @@ body
    {
       padding: 40px 0;
 
-      h3 
-      {
-         font-size: 1.6rem;
-         margin-top: 15px;
-      }
-
       p 
       {
          font-size: 1.25rem;
          line-height: 1.2;
       }
+
+      h3 
+      {
+         margin-top: 15px;
+      }
    }
 }
 
+.faq 
+{
+   background-color: var(--lightColor);
 
+   .container-faq
+   {
+      width: 80%;
+      margin: 0 auto;
+   }
 
+   h2 
+   {
+      font-size: 2.1rem;
+      margin: 20px 0 0;
+   }
 
+   h3 
+   {
+      margin: 0;
+      padding-top: 35px;
+   }
 
+   li 
+   {
+      font-size: 1.3rem;
+      padding: 20px 0 0;
+   }
 
+   .collapsible
+   {
+      margin-top: 0;
+      box-shadow: none;
+      border: none;
+   }
+
+   .collapsible-body
+   {
+      padding: 2rem 0;
+   }
+
+   &__background 
+   {
+      background-color: var(--lightColor);
+      padding: 1rem 0;
+   }
+
+   .collapsible-header i 
+   {
+      margin-right: 0;
+   }
+}
