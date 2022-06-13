@@ -159,6 +159,27 @@ body
    }
 }
 
+.carousel 
+{
+   .carousel-item
+   {
+      background-color: white;
+      border: 1px solid #a3a3a3;
+      color: var(--darkBlue);
+      display: grid;
+      font-size: 1.15rem;
+      justify-content: center;
+      padding: 20px 0;
+
+      img 
+      {
+         height: 90px;
+         margin: 0 auto;
+         width: auto;
+      }
+   }
+}
+
 .faq 
 {
    background-color: var(--lightColor);
