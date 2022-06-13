@@ -19,6 +19,11 @@ body
    min-height: 100vh;
 }
 
+.container 
+{
+   width: 80%;
+}
+
 .nav 
 {
    height: 80px;
@@ -158,12 +163,6 @@ body
 {
    background-color: var(--lightColor);
 
-   .container-faq
-   {
-      width: 80%;
-      margin: 0 auto;
-   }
-
    h2 
    {
       font-size: 2.1rem;
@@ -204,4 +203,41 @@ body
    {
       margin-right: 0;
    }
+}
+
+footer 
+{
+   background-color: var(--darkBlue);
+
+   img 
+   {
+      padding: 20px 0 10px 10%;
+   }
+
+   .divider 
+   {
+      background-color: #383c3e;
+   }
+
+   .menu-footer 
+   {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 30px;
+
+      &__title 
+      {
+         color: white;
+      }
+
+      li 
+      {
+         margin-bottom: 5px;
+      }
+   }
+}
+
+.link 
+{
+   color: #708087;
 }
