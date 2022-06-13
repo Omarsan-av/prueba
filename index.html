@@ -20,35 +20,41 @@
       </head>
       <main>
          <section class="banner">
-            <img src="./assets/img/banner_mobile.webp" alt="Banner">
+            <picture>
+               <source media="(min-width:992px)" srcset="./assets/img/banner_large.webp" />
+               <source media="(min-width:601px)" srcset="./assets/img/banner_medium.webp" />
+               <img src="./assets/img/banner_small.webp" alt="Banner">
+            </picture>
          </section>
 
          <section class="services">
             <div class="container center">
-               <h2 class="title">Seguimos innovando para darte lo mejor</h2>
+               <h2 class="title">Seguimos innovando <br> para darte lo mejor</h2>
                <p class="services__description">Podrás solicitar este servicio solo si eres un Cliente Movistar que cuente con una línea en Plan o en Prepago®. Es muy sencillo y el proceso es 100% digital y sin papeleos. </p>
             </div>
          </section>
 
          <section class="benefits">
-            <div class="container">
-               <h2 class="title center">Conoce los beneficios  de Movistar Money  </h2>
-   
-               <ul class="benefits__list">
-                  <li><img src="./assets/img/check.png" alt="check"> Proceso seguro, rápido y sencillo</li>
-                  <li><img src="./assets/img/check.png" alt="check"> ¡Sin salir de casa! La solicitud es en línea y está disponible en cualquier momento.</li>
-                  <li><img src="./assets/img/check.png" alt="check"> No tiene costos adicionales.</li>
-                  <li><img src="./assets/img/check.png" alt="check"> Podrás hacer cancelaciones totales y parciales sin costo.</li>
-                  <li><img src="./assets/img/check.png" alt="check"> Recibe el dinero entre 30 minutos a 72 horas desde la aprobación y firma.</li>
-                  <li><img src="./assets/img/check.png" alt="check"> Crédito con cuota y tasa fija.</li>
-               </ul>
+            <div class="container content-benefits">
+               <img class="hide-on-med-and-down" src="./assets/img/working.webp" alt="work">
+               <div class="img-benefits">
+                  <h2 class="title center">Conoce los beneficios <br> de Movistar Money  </h2>
+                  <ul class="benefits__list">
+                     <li><img src="./assets/img/check.png" alt="check"> Proceso seguro, rápido y sencillo</li>
+                     <li><img src="./assets/img/check.png" alt="check"> ¡Sin salir de casa! La solicitud es en línea y está disponible en cualquier momento.</li>
+                     <li><img src="./assets/img/check.png" alt="check"> No tiene costos adicionales.</li>
+                     <li><img src="./assets/img/check.png" alt="check"> Podrás hacer cancelaciones totales y parciales sin costo.</li>
+                     <li><img src="./assets/img/check.png" alt="check"> Recibe el dinero entre 30 minutos a 72 horas desde la aprobación y firma.</li>
+                     <li><img src="./assets/img/check.png" alt="check"> Crédito con cuota y tasa fija.</li>
+                  </ul>
+               </div>
             </div>
          </section>
 
-         <section class="use-cases">
-            <div class="use-cases__description">
-               <div class="container center">
-                  <h2 class="title">Usa tu préstamo personal para lo que quieras</h2>
+         <section class="use-cases row">
+            <div class="use-cases__description col s12 l6">
+               <div class="container">
+                  <h2 class="title">Usa tu préstamo personal <br> para lo que quieras</h2>
                   <p>Cambia tu Smartphone por el que siempre quisiste, actualiza tu laptop o tablet.</p>
                   <p>Inscríbete a cursos y sigue preparándote.</p=>
                   <p>Dale un nuevo estilo a tu casa.</pclass=>
@@ -56,36 +62,36 @@
                </div>
             </div>
 
-            <div class="use-cases__images">
+            <div class="use-cases__images col s12 l6">
                <div class="container">
                   <div class="row">
-                     <img class="item col s6" src="./assets/img/1.png" alt="Paris">
-                     <img class="item col s6" src="./assets/img/2.webp" alt="House">
-                     <img class="item col s6" src="./assets/img/6.webp" alt="Smartphone">
-                     <img class="item col s6" src="./assets/img/4.webp" alt="Graduation">
-                     <img class="item col s6" src="./assets/img/5.png" alt="Photography">
-                     <img class="item col s6" src="./assets/img/6.webp" alt="Car">
+                     <img class="item col s6 l4 " src="./assets/img/2.webp" alt="Paris">
+                     <img class="item col s6 l4" src="./assets/img/6.webp" alt="House">
+                     <img class="item col s6 l4" src="./assets/img/2.webp" alt="Smartphone">
+                     <img class="item col s6 l4" src="./assets/img/6.webp" alt="Graduation">
+                     <img class="item col s6 l4" src="./assets/img/2.webp" alt="Photography">
+                     <img class="item col s6 l4" src="./assets/img/6.webp" alt="Car">
                   </div>
                </div>
             </div>
          </section>
 
          <section class="requirements center">
-            <div class="container-requirements">
-               <h2 class="title"> Solicita tu préstamo personal ahora, necesitas:</h2>
-               <div class="requirements__item">
+            <div class="container row">
+               <h2 class="title"> Solicita tu préstamo <br> personal ahora, <br> necesitas:</h2>
+               <div class="requirements__item col s12 l4">
                   <img src="./assets/img/movistar.webp" alt="movistar">   
                   <h3 class="subtitle">Ser parte de Movistar</h3>
                   <p>Tener un línea en Plan <br> o Prepago®</p>
                </div>
-               <div class="requirements__item">
+               <div class="requirements__item col s12 l4">
                   <img src="./assets/img/mexico.webp" alt="mexico">   
                   <h3 class="subtitle">Ser mexicano y <br> mayor de edad</h3>
                </div>
-               <div class="requirements__item">
+               <div class="requirements__item col s12 l4">
                   <img src="./assets/img/documents.webp" alt="documents">   
-                  <h3 class="subtitle">Tener los siguientes documentos disponibles</h3>
-                  <p>Tu INE, RFC, comprobante de domicilio, email y contar con una cuenta bancaria.</p>
+                  <h3 class="subtitle">Tener los siguientes <br> documentos disponibles</h3>
+                  <p>Tu INE, RFC, comprobante de <br> domicilio, email y contar con <br> una cuenta bancaria.</p>
                </div>
             </div>
          </section>
@@ -120,7 +126,7 @@
          <section class="faq center">
             <div class="container">
                <h3 class="subtitle">¿Quieres saber más?</h3>
-               <h2>Para más información, consulta las preguntas frecuentes</h2>
+               <h2>Para más información, <br class="hide-on-small-only"> consulta las preguntas frecuentes</h2>
 
                <ul class="collapsible left-align">
                   <li>
@@ -180,6 +186,40 @@
                   <li><a class="link" href="#">Samsung</a></li>
                   <li><a class="link" href="#">Motorola</a></li>
                   <li><a class="link" href="#">Huawei</a></li>
+               </ul>
+            </div>
+
+            <div class="hide-on-med-and-down">
+               <p class="menu-footer__title">Planes</p>
+               <ul class="menu-footer__plans">
+                  <li><a class="link" href="#">Contrata un Plan Movistar</a></li>
+                  <li><a class="link" href="#">Planes con equipo</a></li>
+                  <li><a class="link" href="#">Planes pago anticipado</a></li>
+                  <li><a class="link" href="#">Planes sin equipo</a></li>
+                  <li><a class="link" href="#">Cámbiate en Plan</a></li>
+               </ul>
+            </div>
+
+            <div class="hide-on-med-and-down">
+               <p class="menu-footer__title">Ayuda</p>
+               <ul class="menu-footer__help">
+                  <li><a class="link" href="#">Atención al cliente</a></li>
+                  <li><a class="link" href="#">Mi Movistar</a></li>
+                  <li><a class="link" href="#">Preguntas frecuentes</a></li>
+                  <li><a class="link" href="#">Centros de Atención</a></li>
+                  <li><a class="link" href="#">Chat de Ayuda</a></li>
+                  <li><a class="link" href="#">Robo o extravío</a></li>
+                  <li><a class="link" href="#">Cobertura Movistar</a></li>
+                  <li><a class="link" href="#">Campañas Vigentes</a></li>
+               </ul>
+            </div>
+
+            <div class="hide-on-med-and-down">
+               <p class="menu-footer__title">Siguenos en</p>
+               <ul class="menu-footer__social">
+                  <li><a class="link" href="#">Facebook</a></li>
+                  <li><a class="link" href="#">Twitter</a></li>
+                  <li><a class="link" href="#">Youtube</a></li>
                </ul>
             </div>
          </div>

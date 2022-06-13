@@ -59,7 +59,7 @@ body
 
 .services
 {
-   background-image: url('../assets/img/background_1.webp');
+   background-image: url('../assets/img/bg_services_small.webp');
    background-repeat: no-repeat;
    background-size: cover;
 
@@ -105,6 +105,11 @@ body
       background-repeat: no-repeat;
       background-size: cover;
 
+      .container 
+      {
+         text-align: center;
+      }
+
       p 
       {
          font-size: 1.5rem;
@@ -132,18 +137,6 @@ body
       {
          margin-bottom: 40px;
       }
-
-      .item:first-child 
-      {
-         margin-left: -6.5%;
-         width: 55.8%;
-      }
-
-      .item:nth-child(5)
-      {
-         margin-left: -3%;
-         width: 53%;
-      }
    }
 }
 
@@ -153,9 +146,8 @@ body
    color: white;
    padding: 10px 0 60px;
 
-   .container-requirements 
+   .container
    {
-      margin: 0 auto;
       width: 70%;
    }
 
@@ -179,6 +171,7 @@ body
 .carousel 
 {
    margin-top: -40px;
+   perspective: unset;
 
    .carousel-item
    {
@@ -189,6 +182,7 @@ body
       font-size: 1rem;
       justify-content: center;
       padding: 20px 0;
+      opacity: 1 !important;
 
       img 
       {
@@ -273,6 +267,147 @@ footer
       li 
       {
          margin-bottom: 5px;
+      }
+   }
+}
+
+@media screen and (min-width:700px) and (max-width: 991px)
+{
+   .title
+   {
+      font-size: 2.5rem;
+
+      br 
+      {
+         display: none;
+      }
+   }   
+
+   .banner
+   {
+      padding: 45px 0 40px;
+      background-color: #c3c3c3;
+   }
+
+   .services 
+   {
+      background-image: url('../assets/img/bg_services_medium.webp');
+
+      .services__description 
+      {
+         font-size: 1.45rem;
+         width: 85%;
+         margin: 30px auto;
+      }
+   }
+
+   .use-cases__images
+   {
+      .container 
+      {
+         width: 60%;
+      }
+   }
+}
+
+@media screen and (min-width: 992px)
+{
+   .services 
+   {
+      background-image: url('../assets/img/bg_services_large.webp');
+   }
+
+   .benefits 
+   {
+      padding-bottom: 70px;
+
+      .content-benefits 
+      {
+         display: flex;
+         justify-content: space-between;
+      }
+
+      .img-benefits
+      {
+         width: 40%;
+      }
+
+      img:first-child
+      {
+         object-fit: contain;
+      }
+
+      &__list 
+      {
+         padding-bottom: 0;
+
+         li 
+         {
+            font-size: 1.2rem;
+         }
+      }
+   }
+
+   .use-cases 
+   {
+      &__description 
+      {
+         .container 
+         {
+            text-align: start;
+         }
+
+         .title 
+         {
+            font-size: 1.5rem;
+            padding: 80px 0 0;
+
+            br 
+            {
+               display: none;
+            }
+         }
+      }
+
+      &__images 
+      {
+         padding-top: 80px !important;
+      }
+   }
+
+   .requirements
+   {
+      padding-bottom: 50px;
+
+      .title
+      {
+         padding: 70px 0 80px;
+
+         br 
+         {
+            display: none;
+         }
+      }
+
+      .container
+      {
+         width: 100%;
+      }
+   }
+
+   .faq 
+   {
+      padding-bottom: 60px;
+      
+      .subtitle
+      {
+         font-size: 1.4rem;
+         padding-top: 0;
+      }
+
+      h2 
+      {
+         padding-bottom: 40px;
       }
    }
 }
