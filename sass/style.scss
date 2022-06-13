@@ -312,6 +312,19 @@ footer
 
 @media screen and (min-width: 992px)
 {
+   .title 
+   {
+      font-size: 2.5rem;
+   }
+
+   .services__description
+   {
+      font-size: 1.5rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: 84%;
+   }
+
    .services 
    {
       background-image: url('../assets/img/bg_services_large.webp');
@@ -335,6 +348,11 @@ footer
       .img-benefits
       {
          width: 40%;
+
+         h2 
+         {
+            text-align: start;
+         }
       }
 
       img:first-child
@@ -393,6 +411,11 @@ footer
             display: none;
          }
       }
+
+         h3:first-child
+         {
+            margin-bottom: 45px;
+         }
 
       .container
       {
