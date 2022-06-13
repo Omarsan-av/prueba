@@ -181,8 +181,8 @@ body
       display: grid;
       font-size: 1rem;
       justify-content: center;
-      padding: 20px 0;
       opacity: 1 !important;
+      padding: 20px 0;
 
       img 
       {
@@ -217,9 +217,9 @@ body
 
    .collapsible
    {
-      margin-top: 0;
-      box-shadow: none;
       border: none;
+      box-shadow: none;
+      margin-top: 0;
    }
 
    .collapsible-body
@@ -296,8 +296,8 @@ footer
       .services__description 
       {
          font-size: 1.45rem;
-         width: 85%;
          margin: 30px auto;
+         width: 85%;
       }
    }
 
@@ -315,6 +315,11 @@ footer
    .services 
    {
       background-image: url('../assets/img/bg_services_large.webp');
+
+      br 
+      {
+         display: none;
+      }
    }
 
    .benefits 
@@ -393,6 +398,11 @@ footer
       {
          width: 100%;
       }
+   }
+
+   .carousel-movistar .title br
+   {
+      display: none;
    }
 
    .faq 
