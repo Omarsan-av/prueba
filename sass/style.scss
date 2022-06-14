@@ -412,10 +412,13 @@ footer
          }
       }
 
-         h3:first-child
+      &__item:nth-child(2)
+      {
+         h3:nth-child(2)
          {
             margin-bottom: 45px;
          }
+      }
 
       .container
       {
