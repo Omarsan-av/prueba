@@ -52,11 +52,6 @@ body
    margin-left: 15px;
 }
 
-.link 
-{
-   color: #708087;
-}
-
 .services
 {
    background-image: url('../assets/img/bg_services_small.webp');
@@ -143,7 +138,6 @@ body
 .requirements 
 {
    background-color: #019df3;
-   color: white;
    padding: 10px 0 60px;
 
    .container
@@ -315,6 +309,11 @@ footer
    .title 
    {
       font-size: 2.5rem;
+   }
+
+   .banner
+   {
+      padding: 45px 0 40px;
    }
 
    .services__description
